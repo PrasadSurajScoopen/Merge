@@ -89,6 +89,7 @@ class Consumer implements Runnable
                  
                 int number = (int) sharedQ.remove(0);
                 System.out.println("removing Element " + number);
+                System.out.println("first syso inserted");// commit in repository
                 sharedQ.notify();
                  
             }
