@@ -93,6 +93,7 @@ class Consumer implements Runnable
                 System.out.println("Second commit");
                 System.out.println("Suraj");
                 System.out.println("Suraj Sonawane");
+                System.out.println("Prasad.....");
                 sharedQ.notify();
                  
             }
