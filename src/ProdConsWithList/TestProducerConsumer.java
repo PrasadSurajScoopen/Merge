@@ -92,6 +92,7 @@ class Consumer implements Runnable
                 System.out.println("first syso inserted");// commit in repository
                 System.out.println("Second commit");
                 System.out.println("Suraj");
+                System.out.println("Suraj Sonawane");
                 sharedQ.notify();
                  
             }
